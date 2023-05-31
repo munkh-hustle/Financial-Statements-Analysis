@@ -14,4 +14,3 @@ req = session.get(site_url).text
 html = BeautifulSoup(req, "html.parser")
 
 print(html.contents)
-
